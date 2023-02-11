@@ -211,7 +211,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-	if string.sub(msg 1, 3) == "1v1" then
+	if string.sub(msg, 1, 3) == "1v1" then
 		local plrname = string.sub(msg, 5)
 		game:GetService'Players':Chat(("sword "..plrname..""))
 	wait(.001) 
