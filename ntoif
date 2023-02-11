@@ -1,0 +1,6 @@
+Rayfield:Notify({
+   Title = "Update",
+   Content = "Script has run succesfully.",
+   Duration = 4,
+   Image = 4483362458
+})
