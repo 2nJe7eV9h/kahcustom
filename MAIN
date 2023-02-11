@@ -209,3 +209,14 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		game:GetService'Players':Chat(("gear "..plrname.." 243788010"))
 	end
 end)
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+	if string.sub(msg 1, 3) == "1v1" then
+		local plrname = string.sub(msg, 5)
+		game:GetService'Players':Chat(("sword "..plrname..""))
+	wait(.001) 
+		game:GetServoce'Players':Chat(("sword me"))
+	wait(.001)
+		game:GetService'Players':Chat(("pm "..plrname.." ChamberedInCaliber99 has challenged you to a duel."))
+	end
+end)
