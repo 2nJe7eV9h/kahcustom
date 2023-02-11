@@ -215,7 +215,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		local plrname = string.sub(msg, 5)
 		game:GetService'Players':Chat(("sword "..plrname..""))
 	wait(.001) 
-		game:GetServoce'Players':Chat(("sword me"))
+		game:GetService'Players':Chat(("sword me"))
 	wait(.001)
 		game:GetService'Players':Chat(("pm "..plrname.." ChamberedInCaliber99 has challenged you to a duel."))
 	end
