@@ -146,10 +146,9 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	end
 end)
 
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-
-	if string.sub(msg, 1, 2) == ">h" then
-		Workspace.ChamberedInCaliber99.Torso.Position = -32.46, 10.73, 69.93
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == "h" then
+ 		Workspace.ChamberedInCaliber99.HumanoidRootPart.Position = Vector3.new(-32.46, 10.73, 69.93)
 	end
 end)
 
