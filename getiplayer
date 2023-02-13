@@ -1,0 +1,5 @@
+local Player = getlplayer()
+
+Player.Character.ChildAdded:Connect(function(Item)
+    print(Item.Name)
+end)
