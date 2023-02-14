@@ -158,6 +158,8 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(fkey)
 	if key == "`" then
 		game:GetService'Players':Chat(("gear me 94794847"))
 	wait()
+		Players.LocalPlayer.("VampireVanquisher").Parent == Workspace.ChamberedInCaliber99
+	wait()
 		game:GetService'Players':Chat(("size me 0.3"))
 	wait()
 		game:GetService'Players':Chat(("size me 0.3"))
