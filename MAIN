@@ -149,6 +149,8 @@ end)
 game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
 	if key == "h" then
  		Workspace.ChamberedInCaliber99.HumanoidRootPart.Position = Vector3.new(-32.46, 10.73, 69.93)
+	wait()
+		game:GetService'Players':Chat(("reset me"))
 	end
 end)
 
