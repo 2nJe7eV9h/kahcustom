@@ -154,6 +154,15 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
 	end
 end)
 
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(fkey)
+	if key == "`" then
+		game:GetService'Players':Chat(("gear me 94794847"))
+	wait()
+		game:GetService'Players':Chat(("size me 0.3"))
+	wait()
+		game:GetService'Players':Chat(("size me 0.3"))
+	end
+end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	if string.sub(msg, 1, 3) == "pcr" then
 		local plrname = string.sub(msg, 5)
