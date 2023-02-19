@@ -1,4 +1,4 @@
---iris init needed 
+-- iris init needed 
 -- Gui to Lua
 -- Version: 3.2
 
@@ -11,6 +11,7 @@ local TextButton = Instance.new("TextButton")
 --Properties:
 
 emergency.Name = "emergency"
+emergency.ResetOnSpawn = false
 emergency.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 hold.Name = "hold"
