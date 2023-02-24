@@ -96,14 +96,15 @@ _2221a.Size = UDim2.new(0, 322, 0, 50)
 _2221a.Font = Enum.Font.Unknown
 _2221a.Text = "name"
 _2221a.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2221a.TextScaled = true
 _2221a.TextSize = 30.000
 _2221a.TextWrapped = true
 
 -- Scripts:
 
-local function VYOD_fake_script() -- _2221a.LocalScript 
+local function RILX_fake_script() -- _2221a.LocalScript 
 	local script = Instance.new('LocalScript', _2221a)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(VYOD_fake_script)()
+coroutine.wrap(RILX_fake_script)()
