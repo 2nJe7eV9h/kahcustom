@@ -6,7 +6,7 @@
 local holder = Instance.new("ImageLabel")
 local clock = Instance.new("ImageLabel")
 local label = Instance.new("TextLabel")
-
+local fps = Instance.new("ScreenGui")
 --Properties:
 
 holder.Name = "holder"
