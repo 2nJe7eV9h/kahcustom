@@ -1,6 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
+print("may be off by a little bit(custom crosshair)")
 -- Instances:
 
 local a = Instance.new("ScreenGui")
