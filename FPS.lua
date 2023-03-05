@@ -12,6 +12,7 @@ local label = Instance.new("TextLabel")
 
 fps.Name = "fps"
 fps.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+fps.ResetOnSpawn = false
 
 holder.Name = "holder"
 holder.Parent = fps
