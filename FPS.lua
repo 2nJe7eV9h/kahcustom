@@ -3,14 +3,18 @@
 
 -- Instances:
 
+local fps = Instance.new("ScreenGui")
 local holder = Instance.new("ImageLabel")
 local clock = Instance.new("ImageLabel")
 local label = Instance.new("TextLabel")
-local fps = Instance.new("ScreenGui")
+
 --Properties:
 
+fps.Name = "fps"
+fps.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
 holder.Name = "holder"
-holder.Parent = game.StarterGui.fps
+holder.Parent = fps
 holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 holder.BackgroundTransparency = 1.000
 holder.Position = UDim2.new(0.428770512, 0, 0.943696439, 0)
@@ -44,7 +48,7 @@ label.TextWrapped = true
 
 -- Scripts:
 
-local function APHL_fake_script() -- label.LocalScript 
+local function DQOG_fake_script() -- label.LocalScript 
 	local script = Instance.new('LocalScript', label)
 
 	--Created by UraniumBanana5
@@ -64,5 +68,4 @@ local function APHL_fake_script() -- label.LocalScript
 	end
 	
 end
-coroutine.wrap(APHL_fake_script)()
- 
+coroutine.wrap(DQOG_fake_script)()
