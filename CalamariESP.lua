@@ -1,3 +1,5 @@
+--This is not mine. This was the ESP built into Calamari M that I took from the Cali-Ware Script Ware UI mod that Mars#7383 made.
+
 crashy = true -- CHANGE THIS TO TRUE IF IT CRASHES THIS GAME
 on = false
 if game.CoreGui:FindFirstChild('ESP') then
