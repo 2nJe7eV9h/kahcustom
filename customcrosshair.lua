@@ -1,16 +1,16 @@
 print("may be off by a little bit(custom crosshair)")
 -- Instances:
 
-local a = Instance.new("ScreenGui")
+local abbsd = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
-a.Name = "a"
-a.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-a.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+abbsd.Name = "abbsd"
+abbsd.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+abbsd.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-ImageLabel.Parent = a
+ImageLabel.Parent = abbsd
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.5, -10, 0.5, -10)
