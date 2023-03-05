@@ -1,6 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
-
+print("much pro good")
 -- Instances:
 
 local fps = Instance.new("ScreenGui")
