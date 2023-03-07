@@ -7,7 +7,7 @@ local ImageLabel = Instance.new("ImageLabel")
 --Properties:
 
 abbsd.Name = "abbsd"
-abbsd.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+abbsd.Parent = game.Players.LocalPlayer:WaitForChild("CoreGui")
 abbsd.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ImageLabel.Parent = abbsd
